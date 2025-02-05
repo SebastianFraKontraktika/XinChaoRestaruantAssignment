@@ -9,4 +9,17 @@ this is a website for the restaurant as a week loong assignment. It is supposed 
 
 ---
 
-more information at the end ofthe project.
+## support
+
+---
+
+if for some reason this is actually being in use, and there is a problem than you can't solve, then contact me at semaa@osloskolen.no I guess.
+
+---
+
+## contributation
+
+---
+
+I will admit, the actual content as of now? Very bare. So if, again for some reason, this website is in use, you are fully allowed to change, for example; what the paragraphs say, what pictures are used and such. For pictures you find the img tag with the current picture and then change the url with the new picture. Same with text, find the paragraph in the code and then change it to whatever you want. 
+
