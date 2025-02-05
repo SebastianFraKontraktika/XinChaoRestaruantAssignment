@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    color: rgb(239, 214, 214);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menyKp {
+    height: 75px;
+    width: 100px;
+    border: solid;
+    background-color: rgb(239, 214, 214);
+    border-color: rgb(219, 179, 179);
+    border-width: 3px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#menyKp:hover {
+    background-color: rgb(219, 179, 179);
+    transition-duration: 0.4s;
+}
+
+.infoBlokk {
+    color: rgb(239, 214, 214);
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px
+}
+
+#menyKpLink {
+    margin-top: 3%;
+    margin-left: 60%; 
+}
+
+#pilScroll {
+    margin-top: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerBg {
+  position: absolute;
+  border: 0;
+  opacity: 0.2;
+}
+
+footer {
+    margin-top: 50px;
+    height: 200px;
+    background-color: rgb(91, 59, 14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerInfo {
+    color:rgb(219, 179, 179);
+    font-size:larger;
+}
+
+#footerLink {
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.linkFont {
+    color:rgb(219, 179, 179);
+    font-size: larger;
+    margin-top: 15px;
+}
