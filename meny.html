@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meny</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script> 
 </head>
 <body class="bg-black">
+    <style>
+        .beth-ellen-regular {
+            font-family: "Beth Ellen", serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+    </style>
     <script src="main.js"></script>
     <div>
         <img class="h-full w-full absolute opacity-20 -z-1" src="https://images.deliveryhero.io/image/fd-no/LH/rzy1-listing.jpg" alt="mat">
     </div>
     <header>
         <a href="index.html">
-            <img class="p-8 h-1/8 w-1/8" src="https://scontent.fosl3-2.fna.fbcdn.net/v/t1.6435-9/110287869_124812812647793_7139174120613749570_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tJJtzrxdDDsQ7kNvgGBHB5z&_nc_zt=23&_nc_ht=scontent.fosl3-2.fna&_nc_gid=A2LFAfeut3no5beysoZrN2P&oh=00_AYDEhfSrRZxq_ZTQZgPvWlsfz0tzOA2EcahFeOPV2XyVcA&oe=67CA848D" alt="puff">
+            <img class="p-8 h-1/6 w-1/6" src="https://scontent.fosl3-2.fna.fbcdn.net/v/t1.6435-9/110287869_124812812647793_7139174120613749570_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tJJtzrxdDDsQ7kNvgGBHB5z&_nc_zt=23&_nc_ht=scontent.fosl3-2.fna&_nc_gid=A2LFAfeut3no5beysoZrN2P&oh=00_AYDEhfSrRZxq_ZTQZgPvWlsfz0tzOA2EcahFeOPV2XyVcA&oe=67CA848D" alt="puff">
         </a>
-        <h1 class="text-red-200 text-8xl flex justify-center items-center underline mt-50">- Meny -</h1>
+        <h1 style="font-family: 'Beth Ellen';" class="text-red-600 text-8xl flex justify-center items-center underline mt-50">- Meny -</h1>
     </header>
-    <nav class="flex flex-wrap mt-100 text-red-200 justify-between items-center text-3xl">
+    <nav class="flex flex-wrap mt-100 text-red-600 justify-between items-center text-3xl">
         <p>|</p>
         <a onclick="showSushi()" class="cursor-pointer">Sushipakker</a><p>|</p>
         <a onclick="showForr()" class="cursor-pointer">forretter</a><p>|</p>
@@ -27,7 +37,7 @@
         <a onclick="showDrink()" class="cursor-pointer">drikker</a><p>|</p>
     </nav>
     <!-- trykk på pilen ved siden av for å se koden -->
-    <section id="drinks" class="border-4 text-red-200 hidden mb-5">
+    <section id="drinks" class="border-4 text-red-600 hidden mb-5">
         <div class="border-b-4 flex flex-row justify-evenly">    
             <img class="h-1/6 w-1/6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTgrWXuFqDo0kEehoGxx4U0MFw7GGSYKuVw&s" alt="pepsi">
             <div class="flex flex-col mr-1/4 h-40 w-40">
@@ -79,7 +89,7 @@
         </div>
     </section>
     <!-- bare les ID-en for å vite hvilken kategory det er  -->
-    <section class="border-4 text-red-200 hidden" id="forretter">
+    <section class="border-4 text-red-600 hidden" id="forretter">
         <div class="border-b-4 flex justify-evenly flex-row">
             <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/e58ab094-80c3-11eb-b161-ba413fcb5348_goi_cuon_sommerruller_scampi.jpeg?w=960" alt="forrett">
             <div class="flex flex-col h-40 w-110 mt-5">
@@ -129,7 +139,7 @@
         </div>
     </section>
 
-    <section class="border-4 text-red-200 hidden" id="baguetter">
+    <section class="border-4 text-red-600 hidden" id="baguetter">
         <div class="border-b-4 flex justify-evenly flex-row">
             <img class="h-1/4 w-1/4" src="smørbrødRef.jpg" alt="baguetter">
             <div class="flex flex-col h-40 w-110 mt-5">
@@ -164,7 +174,7 @@
         </div> 
     </section>
 
-    <section class="border-4 text-red-200 hidden" id="spesialmeny">
+    <section class="border-4 text-red-600 hidden" id="spesialmeny">
         <div class="border-b-4 flex justify-evenly flex-row">
             <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="spesialmeny">
             <div class="flex flex-col h-40 w-110 mt-5">
@@ -200,7 +210,7 @@
 
     </section>
 
-    <section class="border-4 text-red-200 hidden" id="hovedretter">
+    <section class="border-4 text-red-600 hidden" id="hovedretter">
         <div class="border-b-4 flex justify-evenly flex-row">
             <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/f33fd3aa-80c2-11eb-ac77-aa98ca244687_bun_cha_tom_cha_gio.jpeg?w=960" alt="hovedrett">
             <div class="flex flex-col h-40 w-120 mt-5">
@@ -259,7 +269,7 @@
         </div>
     </section>
 
-    <section class="border-4 text-red-200 hidden" id="sushi">
+    <section class="border-4 text-red-600 hidden" id="sushi">
         <div class="border-b-4 flex justify-evenly flex-row">
             <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="sushi">
             <div class="flex flex-col h-40 w-110 mt-5">
@@ -296,17 +306,18 @@
     </section>
 
 
-    <footer class="flex flex-wrap justify-around items-center h-48 mt-12 bg-yellow-800">
+    <footer class="flex flex-wrap justify-around items-center h-48 mt-12">
+        <img class="absolute opacity-30 -z-1" style="height:200px;width:100%;" src="https://cdn.pixabay.com/photo/2020/11/10/03/26/wood-panel-5728430_1280.jpg" alt="">
         <img class="h-24 w-30" src="https://scontent.fosl3-2.fna.fbcdn.net/v/t1.6435-9/110287869_124812812647793_7139174120613749570_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tJJtzrxdDDsQ7kNvgGBHB5z&_nc_zt=23&_nc_ht=scontent.fosl3-2.fna&_nc_gid=Anq3hUdAdKrCVwBi82ukFLh&oh=00_AYCZuhxG95bm1mua5Z-30R7x1luox-W_MejmlW9xp1wdJQ&oe=67C9330D" alt="ånei">
-        <div class="text-red-200 text-2xl">
+        <div class="text-red-600 text-2xl">
             <p>Xin Chào restaurant</p>
-            <p>organisjons nummer</p>
-            <p>adresse</p>
+            <p>95 22 31 11</p>
+            <p>Møllergata 42, 0179 Oslo</p>
         </div>
         <div class="flex flex-col content between">
-            <a class="text-red-200 text-2xl mt-1" href="omOss.html">om/finn oss</a>
-            <a class="text-red-200 text-2xl mt-1" href="https://www.facebook.com/XinChaoRestauant/?locale=nb_NO">facebook</a>
-            <a class="text-red-200 text-2xl mt-1" href="https://www.instagram.com/xinchao.oslo/">instagram</a>
+            <a class="text-red-600 text-2xl mt-1" href="omOss.html">om/finn oss</a>
+            <a class="text-red-600 text-2xl mt-1" href="https://www.facebook.com/XinChaoRestauant/?locale=nb_NO">facebook</a>
+            <a class="text-red-600 text-2xl mt-1" href="https://www.instagram.com/xinchao.oslo/">instagram</a>
         </div>
     </footer>
 </body>
