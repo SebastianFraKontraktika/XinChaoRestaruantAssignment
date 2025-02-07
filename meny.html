@@ -19,7 +19,7 @@
     </header>
     <nav class="flex flex-wrap mt-100 text-red-200 justify-between items-center text-3xl">
         <p>|</p>
-        <a onclick="showSushi()" class="cursor-pointer">Sushi</a><p>|</p>
+        <a onclick="showSushi()" class="cursor-pointer">Sushipakker</a><p>|</p>
         <a onclick="showForr()" class="cursor-pointer">forretter</a><p>|</p>
         <a onclick="showSpes()" class="cursor-pointer">spesialmeny</a><p>|</p>
         <a onclick="showBagu()" class="cursor-pointer">baguetter</a><p>|</p>
@@ -78,64 +78,126 @@
             </div>
         </div>
     </section>
-
-    <section class="text-red-200 hidden" id="forretter">
-        <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
+    <!-- bare les ID-en for å vite hvilken kategory det er  -->
+    <section class="border-4 text-red-200 hidden" id="forretter">
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/e58ab094-80c3-11eb-b161-ba413fcb5348_goi_cuon_sommerruller_scampi.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Sommerruller (Scampi eller vegetar) </h1><p class="underline text-white font-bold">109,00kr</p>
+                <p class="text-xl mt-2">2 stk. Sommerruller fylt med enten scampi eller tofu, egg, risnudler, salat, agurk og urter Velg mellom scampi og vegetar i valgmenyen under</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/1be7d0d6-80c4-11eb-9883-46f90dfe709e_fried_spring_roll_vegetar.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Fried Spring Roll (Kylling Eller Vegetar)</h1>
+                <p class="underline text-white font-bold">109,00kr</p>
+                <p class="text-xl mt-2">Friterte vårruller med enten tofu eller kylling, glassnudler, sort sopp gulrot og urter. Serveres med sweet chili saus</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/06086438-80c4-11eb-adc2-86c7306af3b3_cha_thap_cam_mix_av_vietnamesisk_polser.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Cha Tap Cam</h1>
+                <p class="underline text-white font-bold">165,00 kr</p>
+                <p class="text-xl mt-2">Vietnamesisk scampikake, kyllingkake og pølser av svinekjøtt.Serveres med syltede grønnsaker</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/0fe2ebf4-80c4-11eb-8c39-b61ad853463e_goi_du_du_vietnammesick_salat.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Goi Du Du</h1>
+                <p class="underline text-white font-bold">155,00 kr</p>
+                <p class="text-xl mt-2">Sursøt vietnamesisk salat med knasende sprø papaya, mango, scampi, blandet med sursøt chilifiskesaus. Toppet med urter og peanøtter</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/f83f04ba-80c3-11eb-8b78-564656d04aee_tempura_scampi.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Tempura Scampi</h1>
+                <p class="underline text-white font-bold">109,00 kr</p>
+                <p class="text-xl mt-2">3 stk. Innbakt scampi med sweet chili-saus</p>
             </div>
         </div>
         <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
-            </div>
-        </div>
-        <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
-            </div>
-        </div>
-        <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
-            </div>
-        </div>
-        <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
-            </div>
-        </div>
-        <div class="flex justify-evenly flex-row">
-            <img class="h-1/6 w-1/6" src="" alt="forrett">
-            <div class="flex flex-col h-40 w-40">
-                <h1 class="text-2xl font-bold tracking-wide"></h1>
-                <p class="text-xl mt-2"></p>
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/fe9e496a-80c3-11eb-9e19-d6bdc21ff99a_wonton_suppe.jpeg?w=960" alt="forrett">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Wontonsuppe</h1>
+                <p class="underline text-white font-bold">109,00 kr</p>
+                <p class="text-xl mt-2">Wontonsuppe med scampi- og kyllingdumplings, langtidskokt kyllingkraft, vietnamesisk kyllingkake. Toppet med urter</p>
             </div>
         </div>
     </section>
 
-    <section class="text-red-200 hidden" id="baguetter">
-        <div>testTredje</div>
-        <div>testTredje</div>
-        <div>testTredje</div>
-        <div>testTredje</div>
+    <section class="border-4 text-red-200 hidden" id="baguetter">
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="smørbrødRef.jpg" alt="baguetter">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Bánh Mì Storfe</h1>
+                <p class="underline text-white font-bold">135,00 kr</p>
+                <p class="text-xl mt-2">Indrefilet av storfe marinert med sitrongress og chili, syltet gulrot og reddik, agurk, smør, majones og koriander</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="smørbrødRef.jpg" alt="baguetter">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Bánh Mì Kylling</h1>
+                <p class="underline text-white font-bold">130,00 kr</p>
+                <p class="text-xl mt-2">Vietnamesisk baguette med kylling, paté, smør, majones, koriander, syltet gulrot og reddik, agurk. Toppet med husets søte chillisoyasaus</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="https://imageproxy.wolt.com/menu/menu-images/604638b939e78bff6fe7a799/9dd040f8-80c2-11eb-bc7c-6eeb9388470a_banh_mi_thit_nuong.jpeg?w=960" alt="baguetter">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Bánh Mì Thit Nuong</h1>
+                <p class="underline text-white font-bold">135,00 kr</p>
+                <p class="text-xl mt-2">Vietnamesisk baguette med svinekjøtt grillet på kullgrill, majones, koriander, syltet gulrot og reddik, agurk. Toppet med husets søte chillisoyasaus</p>
+            </div>
+        </div>
+        <div class="flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="smørbrødRef.jpg" alt="baguetter">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Bánh Mì Tap Cam</h1>
+                <p class="underline text-white font-bold">135,00 kr</p>
+                <p class="text-l mt-2">Vietnamesisk baguette med paté, marinert svinekjøtt, vietnamesisk pølse, syltet gulrot og reddik smør, majones, koriander, agurk og hjemmelaget Xa Xiu-saus. Toppet med husets søte chilisoyasaus</p>
+            </div>
+        </div> 
     </section>
 
     <section class="text-red-200 hidden" id="spesialmeny">
-        <div>testFjerde</div>
-        <div>testFjerde</div>
-        <div>testFjerde</div>
-        <div>testFjerde</div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="spesialmeny">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Chef's Special</h1>
+                <p class="underline text-white font-bold">265,00 kr</p>
+                <p class="text-xl mt-2">15 biter: 7 nigiri (3 laks flambert, 1 kamskjell, 1 kveite, 1 scampi, 1 tuna) 8 maki (Spicy Vulkan maki)</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="spesialmeny">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Special Mix Meny</h1>
+                <p class="underline text-white font-bold">299,00 kr</p>
+                <p class="text-xl mt-2">20 biter: Laks sashimi, flambert laks maki, flambert laks nigiri</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="spesialmeny">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Share With Those You Love</h1>
+                <p class="underline text-white font-bold">599,00 kr</p>
+                <p class="text-xl mt-2">42 biter: 20 nigiri (4 laks, 6 laks flambert, 3 tunfisk, 3 kveite, 2 kamskjel2 scampi) 10 biter Alex’s favoritt maki roll 10 biter Eliza’s favoritt maki roll</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="spesialmeny">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Nigirimeny</h1>
+                <p class="underline text-white font-bold">175,00 kr</p>
+                <p class="text-xl mt-2">8 biter: 4 laks 1 kamskjell 1 tunfisk 1 kveite 1 scampi</p>
+            </div>
+        </div>
+
     </section>
 
     <section class="text-red-200 hidden" id="hovedretter">
@@ -147,14 +209,40 @@
         <div>testFemte</div>
     </section>
 
-    <section class="text-red-200 hidden" id="sushi">
-        <div>testSjette</div>
-        <div>testSjette</div>
-        <div>testSjette</div>
-        <div>testSjette</div>
-        <div>testSjette</div>
-        <div>testSjette</div>
-        <div>testSjette</div>
+    <section class="border-4 text-red-200 hidden" id="sushi">
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="sushi">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Ekstra Stor Sushi</h1>
+                <p class="underline text-white font-bold">320,00 kr</p>
+                <p class="text-xl mt-2">24 biter: 10 nigiri (6 laks, 1 tuna, 1 kamskjell, 1 kveite, 1 scampi) 4 sashimi (laks) 10 maki (tempura scampi)</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="sushi">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Medium Sushi</h1>
+                <p class="underline text-white font-bold">199,00 kr</p>
+                <p class="text-xl mt-2">15 biter: 7 nigiri (3 laks, 1 kveite, 1 tuna, 1 scampi, 1 kamskjell) 8 maki (laks)</p>
+            </div>
+        </div>
+        <div class="border-b-4 flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="sushi">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Liten Sushi</h1>
+                <p class="underline text-white font-bold">159,00 kr</p>
+                <p class="text-xl mt-2">12 biter: 4 nigiri (laks, tunfisk, scampi) 8 maki (laks)</p>
+            </div>
+        </div>
+        <div class="flex justify-evenly flex-row">
+            <img class="h-1/4 w-1/4" src="sushiRef.jpeg" alt="sushi">
+            <div class="flex flex-col h-40 w-110 mt-5">
+                <h1 class="text-2xl font-bold tracking-wide">Stor Sushi</h1>
+                <p class="underline text-white font-bold">279,00 kr</p>
+                <p class="text-xl mt-2">20 biter: 12 nigiri (8 laks, 1 tuna, 1 kamskjell, 1 kveite, 1 scampi) 8 maki (laks)</p>
+            </div>
+        </div>
+
     </section>
 
 
